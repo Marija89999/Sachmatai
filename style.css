@@ -1,0 +1,50 @@
+tbody > tr > td {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(240, 87, 18);
+    background-color: rgb(44, 214, 77);
+}
+
+
+
+tbody > tr > td > div {
+    background-color: rgb(240, 87, 18);
+}
+
+tbody > tr > td:nth-child(2n) > div {
+    background-color: rgb(44, 214, 77);
+}
+
+tbody > tr:nth-child(2n) > td > div {
+    background-color: rgb(44, 214, 77);
+}
+
+tbody > tr:nth-child(2n) > td:nth-child(2n) > div {
+    background-color: rgb(240, 87, 18);
+}
+
+
+tbody > tr > td:nth-child(2n){
+    border: 2px solid rgb(44, 214, 77);
+    background-color: rgb(240, 87, 18);
+}
+
+
+tbody > tr:nth-child(2n) > td{
+    border: 2px solid rgb(44, 214, 77);
+    background-color: rgb(240, 87, 18);
+}
+
+tbody > tr:nth-child(2n) > td:nth-child(2n){
+    border: 2px solid rgb(240, 87, 18);
+    background-color: rgb(44, 214, 77);
+}
+
+
+div {
+    width: 16px;
+    height: 16px;
+
+    background-color: black;
+    margin: auto;
+}
